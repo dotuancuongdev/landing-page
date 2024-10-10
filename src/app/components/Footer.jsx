@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
         <div>
           {infomations.map((text) => (
-            <p key="text" className="text-base font-semibold">
+            <p key={text} className="text-base font-semibold">
               {text}
             </p>
           ))}

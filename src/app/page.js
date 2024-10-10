@@ -178,8 +178,11 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-4 gap-8 mt-20">
-          {ourPartnership.map((logo) => (
-            <div className="bg-white rounded-md h-40 flex justify-center items-center">
+          {ourPartnership.map((logo, idx) => (
+            <div
+              className="bg-white rounded-md h-40 flex justify-center items-center"
+              key={idx}
+            >
               <img src={logo} />
             </div>
           ))}
