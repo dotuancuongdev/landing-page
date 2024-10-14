@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center mt-5 md:mt-11">
           <button className="bg-[#6966ff] rounded-md">
-            <p className={` text-xl px-4 py-2 ${inter.className}`}>
+            <p className={` text-xs sm:text-xl px-4 py-2 ${inter.className}`}>
               Get started
             </p>
           </button>
@@ -117,7 +117,9 @@ export default function Home() {
 
           <div className="  my-3 md:w-full md:flex justify-center">
             <button className="bg-[#6966FF] rounded-md py-2 px-4">
-              <p className="text-lg leading-[28px]">Investment squads</p>
+              <p className="text-xs sm:text-lg leading-[28px]">
+                Investment squads
+              </p>
             </button>
           </div>
         </div>
@@ -242,7 +244,7 @@ export default function Home() {
 
         <div className="flex justify-center mt-7 md:mt-11">
           <button className="bg-[#6966ff] rounded-md">
-            <p className={` text-xl px-4 py-2 ${inter.className}`}>
+            <p className={` text-xs sm:text-xl px-4 py-2 ${inter.className}`}>
               Enter marketplace
             </p>
           </button>
@@ -265,6 +267,30 @@ export default function Home() {
               <img src={logo} />
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* FAQs */}
+      <div className="sm:mt-40 mt-20 mb-32">
+        <p className="sm:text-[40px] sm:leading-10 text-xl font-black text-center">
+          FAQS
+        </p>
+        <div className="mt-12 sm:mt-16">
+          <Image
+            src={
+              "https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728896930/ds8lu66bdsu50for6ag9.png"
+            }
+            alt="FAQs"
+            width={1200}
+            height={721}
+          />
+        </div>
+        <div className="mt-7 w-full text-center">
+          <button className="bg-[#6966ff] rounded-md">
+            <p className={`text-xs sm:text-xl px-4 py-2 ${inter.className}`}>
+              See more
+            </p>
+          </button>
         </div>
       </div>
     </div>
