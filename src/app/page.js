@@ -40,16 +40,16 @@ export default function Home() {
       </div>
 
       <div className="text-center mt-16  flex flex-col  gap-2">
-        <p className="text-2xl md:text-[64px] lg:text-[70px] xl:text-[90px]  font-black leading-10 md:leading-[64px] lg:leading-[70px] xl:leading-[100px]">
+        <p className="text-2xl sm:text-5xl md:text-[64px] lg:text-[70px] xl:text-[90px]  font-black leading-10 md:leading-[64px] lg:leading-[70px] xl:leading-[100px]">
           Unlock the power of
         </p>
-        <p className="text-2xl md:text-[64px] lg:text-[70px] xl:text-[90px]  font-black leading-10 md:leading-[64px] lg:leading-[70px] xl:leading-[100px]">
+        <p className="text-2xl sm:text-5xl md:text-[64px] lg:text-[70px] xl:text-[90px]  font-black leading-10 md:leading-[64px] lg:leading-[70px] xl:leading-[100px]">
           decentralized organization
         </p>
       </div>
 
       <p
-        className={`text-sm mx-auto mt-8 md:mt-16 lg:text-2xl font-semibold lg:w-[792px] leading-8 text-center ${inter.className}`}
+        className={`text-sm mx-auto mt-8 sm:text-xl md:mt-16 lg:text-2xl font-semibold lg:w-[792px] leading-8 text-center ${inter.className}`}
       >
         Spinel is a DAO infrastructure that offers no-code tools and makes it
         easy to onboard communities onto Web3.
@@ -193,7 +193,7 @@ export default function Home() {
       </div>
 
       <div className="mt-36  lg:flex justify-between gap-10">
-        <div className=" flex flex-col gap-7 justify-center items-center mb-5 lg:mb-0">
+        <div className=" flex flex-col gap-7 justify-center md:items-center  mb-5 lg:mb-0">
           <p className="sm:text-[40px] leading-10 text-xl font-black">
             Gasless governance
           </p>
