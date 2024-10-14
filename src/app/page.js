@@ -19,6 +19,34 @@ const ourPartnership = [
   "https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728809656/m1irncftab22lngy6c4m.png",
 ];
 
+const faqContents = [
+  {
+    title: "01. What is a proposal investment?",
+    content:
+      "An investment club is a group of people who pool their capital and make investments together. Currently, Syndicate enables you to create Web3 Investment Clubs. Syndicate can also help you create legal entities for your investment club(s).",
+  },
+  {
+    title: "02. What are the criteria to create a club on Syndicate?",
+    content: "",
+  },
+  {
+    title: "03. How long does it take to create an investment club?",
+    content: "",
+  },
+
+  {
+    title: "04. What is the cost of creating an investment club?",
+    content: "",
+  },
+  {
+    title: "05. What legal entities are supported for clubs?",
+    content: "",
+  },
+  {
+    title: "06. Do all members in a club need to be accredited?",
+    content: "",
+  },
+];
 export default function Home() {
   return (
     <div className="max-w-[1440px] mx-auto px-10">
@@ -275,15 +303,24 @@ export default function Home() {
         <p className="sm:text-[40px] sm:leading-10 text-xl font-black text-center">
           FAQS
         </p>
-        <div className="mt-12 sm:mt-16">
-          <Image
-            src={
-              "https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728896930/ds8lu66bdsu50for6ag9.png"
-            }
-            alt="FAQs"
-            width={1200}
-            height={721}
-          />
+        <div className="mt-12 sm:mt-16 w-full flex flex-col ">
+          {faqContents?.map((item, idx) => (
+            <div
+              key={idx}
+              className="border-b-[1px] border-solid border-zinc-700"
+            >
+              <p
+                className={` text-xs md:text-lg lg:text-2xl px-4 py-2 ${inter.className} font-semibold my-[2px] sm:my-2`}
+              >
+                {item.title}
+              </p>
+              <p
+                className={` text-xs md:text-base sm:text-base px-4 py-2 ${inter.className} text-[#BCBBCA]`}
+              >
+                {item.content}
+              </p>
+            </div>
+          ))}
         </div>
         <div className="mt-7 w-full text-center">
           <button className="bg-[#6966ff] rounded-md">
