@@ -153,7 +153,9 @@ export default function Home() {
         </div>
 
         <div className="md:w-full md:flex md:justify-center xl:flex-[7] lg:flex-[5]">
-          <img
+          <Image
+            height={354}
+            width={659}
             src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814529/lwjnxbulyf9thfjubemp.svg"
             alt="investment-squads"
           />
@@ -163,8 +165,16 @@ export default function Home() {
       {/* Real-time digital asset management */}
       <div className="mt-36 lg:flex justify-center gap-10 hidden">
         <div className="flex-1 flex flex-col gap-3">
-          <img src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814529/zfxi4gq0sk2gvcdcq7gz.png" />
-          <img src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/baoolmf2nysit3ljr0jz.png" />
+          <Image
+            width={625}
+            height={257}
+            src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814529/zfxi4gq0sk2gvcdcq7gz.png"
+          />
+          <Image
+            width={625}
+            height={221}
+            src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/baoolmf2nysit3ljr0jz.png"
+          />
         </div>
         <div className="flex-1  flex  justify-center items-center">
           <div className="max-w-[441px] flex flex-col gap-7 items-end">
@@ -196,8 +206,16 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-1 flex flex-col gap-5">
-          <img src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814529/zfxi4gq0sk2gvcdcq7gz.png" />
-          <img src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/baoolmf2nysit3ljr0jz.png" />
+          <Image
+            width={625}
+            height={257}
+            src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814529/zfxi4gq0sk2gvcdcq7gz.png"
+          />
+          <Image
+            width={625}
+            height={221}
+            src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/baoolmf2nysit3ljr0jz.png"
+          />
         </div>
       </div>
 
@@ -215,7 +233,9 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-11 md:mt-14">
-          <img
+          <Image
+            height={700}
+            width={1200}
             src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728824288/ikszt9507oe4vszix01i.png"
             className="w-full"
           />
@@ -235,7 +255,9 @@ export default function Home() {
           </p>
         </div>
         <div className="">
-          <img
+          <Image
+            height={347}
+            width={675}
             src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/lqmftrfudcvcn3s0orqz.png"
             className="w-full"
           />
@@ -257,13 +279,17 @@ export default function Home() {
         </div>
         <div className="mt-10 md:mt-20 w-full flex flex-col sm:gap-5 lg:flex-row lg:gap-10 lg:justify-center">
           <div className="flex-1 my-2 w-full">
-            <img
+            <Image
+              width={580}
+              height={315}
               src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/qcefy9tr2ttcaq76sakp.png"
               className="w-full"
             />
           </div>
           <div className="flex-1 my-2 w-full">
-            <img
+            <Image
+              width={580}
+              height={315}
               src="https://res.cloudinary.com/dyk0mxfjz/image/upload/v1728814528/qg0cpsafgxiim7jwpegm.png"
               className="w-full"
             />
